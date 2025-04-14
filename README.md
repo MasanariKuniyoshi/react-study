@@ -8,7 +8,7 @@ Docker Compose でのみの実装となっています。
 
 ```bash
 docker compose build
-docker compose run --rm frontend sh -c  'cd sample-react && npm install'
+docker compose run --rm frontend sh -c  'cd sample-react && yarn install'
 ```
 
 ## サーバーの起動
