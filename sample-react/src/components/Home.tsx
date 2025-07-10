@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Homeページ</h1>
+      <h1 className="text-blue-600">Homeページ</h1>
       <button onClick={goToPageA}>PageA</button>
       <br />
       <button onClick={goToPageB}>PageB</button>
